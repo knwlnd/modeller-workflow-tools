@@ -1,65 +1,88 @@
 <!DOCTYPE html>
-<html>
-
- <h1>knwlnd</h1>
- 
- <head>
-  <title>knwlnd</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" >
-  <link href="style.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>knwlnd Fractal Audio Workflow Tools</title>
+  <meta name="description" content="Fractal Audio workflow tools, block libraries, impulse responses and presets for Axe-Fx III, FM3 and FM9 users.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
 </head>
-
-
 <body>
+  <header class="site-header">
+    <p class="brand">knwlnd</p>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a class="active" href="./index.html">home</a></li>
+        <li><a href="./libraries.html">workflow library</a></li>
+        <li><a href="./impulses.html">studio ir collection</a></li>
+        <li><a href="./presets.html">preset collection</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <nav>
-    <ul>
-      <h2>
-      <li><a href="index.html">knwlnd home</a></li>
-      <li><a href="presets.html">Preset Collections</a></li>
-      <li><a href="libraries.html">Block Libraries</a></li>
-      <li><a href="impulses.html">Impulse Responses</a></li>
-      </h2>
-    </ul>
-  </nav>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Fractal Audio workflow tools</p>
+      <h1>Stop scrolling. Start building.</h1>
+      <p class="lede">Blocks, impulse responses and presets for Fractal Audio Axe-Fx III, FM3 and FM9 users who want a faster, more real-world workflow inside their modeller.</p>
+      <div class="button-row">
+        <a class="button primary" href="https://knwlnd.gumroad.com/l/jlbdt?layout=profile">View on Gumroad</a>
+        <a class="button secondary" href="#products">Explore products</a>
+      </div>
+    </section>
 
-<br>
-<section id='home'>
-    <p>Presets, blocks and impulse responses for Fractal Audio AXE-FX III and FM3.</p>
-<br>
+    <section class="section panel">
+      <p class="kicker">The problem</p>
+      <h2>Modern modellers sound incredible. The workflow can still get in the way.</h2>
+      <p>Abstract amp names, scattered cabinets and endless IR choices can make it harder to translate real-world guitar rig knowledge into a usable preset quickly.</p>
+      <p class="note">This is not about replacing your ears or changing your tone. It is about getting to your tone faster.</p>
+    </section>
 
-    <ul id='points'> 
-      <li>Reduce the learning curve</li>
-      <li>Stop looking up cryptic names</li>
-      <li>Get to a familiar real-world setup quickly</li>
-      <li> Better tones, faster</li>
-    </ul>
+    <section id="products" class="section">
+      <h2>Products</h2>
+      <div class="grid">
+        <article class="card featured">
+          <p class="kicker">Flagship</p>
+          <h3>Fractal Workflow Library</h3>
+          <p>Pre-organised amp, cab and effects blocks designed to make your modeller behave more like a real rig and studio workflow.</p>
+          <a class="button" href="./libraries.html">View library</a>
+        </article>
 
-<br>
-<br>
-    <p> Presets based around tried and tested Amp and Cabinet pairings with effects and varied tones across eight scenes.</p>
+        <article class="card">
+          <p class="kicker">IRs</p>
+          <h3>Studio IR Collection</h3>
+          <p>Curated impulse responses built around practical cabinet sounds and proven studio mic combinations.</p>
+          <a class="button" href="./impulses.html">View IRs</a>
+        </article>
 
-    <p> Block libraries with channels grouped and saved just as they would be on the actual reference amp. </p>
+        <article class="card">
+          <p class="kicker">Presets</p>
+          <h3>Preset Collection</h3>
+          <p>Complete presets with scenes, built as examples of the workflow library and IR collection in practice.</p>
+          <a class="button" href="./presets.html">View presets</a>
+        </article>
+      </div>
+    </section>
 
-    <p> Streamline your preset creation by selecting a pre-configured block for your amp closely representing the actual amp modeled and a pre-configured block for your cab with a proven IR combination. </p>
-</section>
-<br>
-<br>
-<br>
-<br>
-    
-  <footer>
-    <p>Copyright knwlnd 2022</p>
-    <h6>All content of this website and the digital goods offered is the sole ownership of knwlnd <br> and may not be duplicted, reproduced or distributed under any circumstances. Due to <br> the irevocable nature of digital goods all sales are final and no refunds will be given.</h6>
+    <section class="section panel">
+      <h2>Built for players who know what they are listening for.</h2>
+      <ul class="checklist">
+        <li>Reduce the learning curve</li>
+        <li>Stop looking up abstract model names</li>
+        <li>Move from real-world amp knowledge to Fractal blocks faster</li>
+        <li>Build presets with confidence and intent</li>
+        <li>Keep a consistent workflow across sessions and rigs</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Copyright © knwlnd 2026</p>
+    <p>Fractal Audio, Axe-Fx, FM3 and FM9 are trademarks of Fractal Audio Systems. This site is independent and not affiliated with or endorsed by Fractal Audio Systems.</p>
+    <p>Digital goods are provided as downloads. Please check compatibility before purchase.</p>
   </footer>
-        <br>
-        <br>
-
-  <script src="script.js"></script>   
-
 </body>
-
 </html>
