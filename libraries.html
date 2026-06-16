@@ -1,72 +1,96 @@
 <!DOCTYPE html>
-<html>
-
-  
- <head>
-  <title>knwlnd</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" >
-  <link href="style.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fractal Workflow Library | knwlnd</title>
+  <meta name="description" content="A Fractal Audio block library for Axe-Fx III, FM3 and FM9 users who want faster real-world amp, cab and effects workflows.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
 </head>
-
-
 <body>
+  <header class="site-header">
+    <p class="brand">knwlnd</p>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="./index.html">home</a></li>
+        <li><a class="active" href="./libraries.html">workflow library</a></li>
+        <li><a href="./impulses.html">studio ir collection</a></li>
+        <li><a href="./presets.html">preset collection</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <nav>
-    <ul>
-      <h2>
-      <li><a href="index.html">knwlnd home</a></li>
-      <li><a href="presets.html">Preset Collections</a></li>
-      <li><a href="libraries.html">Block Libraries</a></li>
-      <li><a href="impulses.html">Impulse Responses</a></li>
-      </h2>
-    </ul>
-  </nav>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Block library for Axe-Fx III, FM3 & FM9</p>
+      <h1>Turn your amp modeller into a real-world studio rig.</h1>
+      <p class="lede">A practical block library that reorganises your Fractal workflow around real amps, real cabinets and real studio mic pairings.</p>
+      <div class="button-row">
+        <a class="button primary" href="https://knwlnd.gumroad.com/l/jlbdt?layout=profile">Buy on Gumroad</a>
+        <a class="button secondary" href="#included">What’s included</a>
+      </div>
+    </section>
 
-  <!-- <h1>knwlnd</h1> -->
+    <section class="section product-layout">
+      <article class="panel">
+        <p class="kicker">The workflow problem</p>
+        <h2>Stop scrolling through abstract amp names and disorganised cabinets.</h2>
+        <p>Modern amp modellers sound incredible, but working with them can be slow and unintuitive. Amp models are renamed and abstracted. Cabinets are scattered with little real-world logic. Mic combinations do not always reflect how studios actually work.</p>
+        <p>This pack restructures your amp and cabinet blocks so they align with how real guitar rigs and studios are organised.</p>
+        <p class="note">It is not about changing your tone. It is about getting to your tone faster.</p>
+      </article>
 
-<h2 id='libraries'>Block Libraries</h2>
-        <h3>Amp Blocks</h3>
-        <p>In the Amplifier Blocks where there are more than 4 channels or it made sense to me to spread the complete amp across two blocks they are labelled "amp name 1" and "amp name 2" and when used together will cover all the channels. <br>
-        Where there are alternate configurations of the channels of one amp they are named "amp name A" "amp name B".<br><br>
-All amps are set to thru bypass so they can be used inline as opposed to in parallel, this is just a personal preference and because I use the same amp block library with the FM3 and at times use no amp or a drive block (FET Preamp) to create a clean thus keeping 4 amp channels for other sounds.<br><br>
-There may also be control switches assigned for amp functions like boost or saturation, these are highlighted by the yellow dot on the parameter in Axe-Edit, just un-assign if it's not helpful..</p>
-        <h4>Pack 1</h4>
-        <h4>Pack 2</h4>
-        <h4>Pack 3</h4>
-        <h4>Pack 4</h4>
-        <h4>Pack 5</h4>
-        <h3>Cab Blocks</h3>
-        <p>Generally set up in pairs as I found I rarely use more than 2 IR's, if other IR's are included for a given cab they are added to slots 3 and 4 and are muted.<br>
+      <aside class="aside-box">
+        <h3>Product details</h3>
+        <ul class="plain-list">
+          <li><strong>Format:</strong> Fractal block library files</li>
+          <li><strong>Compatibility:</strong> Axe-Fx III, FM3, FM9</li>
+          <li><strong>Delivery:</strong> Gumroad digital download</li>
+          <li><strong>Workflow:</strong> Non-destructive</li>
+        </ul>
+        <a class="button primary" href="https://knwlnd.gumroad.com/l/jlbdt?layout=profile">Buy on Gumroad</a>
+      </aside>
+    </section>
 
-The alternatives are iterated through, for example;<br>
-<br>
-Marshall 2x12 '71 Oversize A is a 57 and a 121<br>
-Marshall 2x12 '71 Oversize B is a different 57 and a 121<br>
-Marshall 2x12 '71 Oversize C is a 421 and a 121<br>
-Marshall 2x12 '71 Oversize D is a 421 and a 160<br>
-<br>
-This allows me to quickly search a cab name or speaker such as Marshall then pin the selection window and move through lots of iterations quickly.</p>
-        <h4>Pack 1</h4>
-        <h4>Pack 2</h4>
-        <h4>Pack 3</h4>
-        <h4>Pack 4</h4>
-        <h4>Pack 5</h4>
+    <section id="included" class="section">
+      <h2>What you get</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Amp blocks</h3>
+          <p>Amp channels grouped and ordered to reflect their real-world counterparts, with clearer naming based on the actual gear being modelled.</p>
+        </article>
+        <article class="card">
+          <h3>Cab blocks</h3>
+          <p>Cabinets organised around practical speaker and microphone pairings, designed to reduce endless searching.</p>
+        </article>
+        <article class="card">
+          <h3>Effects blocks</h3>
+          <p>Reusable drive, delay, reverb and modulation starting points organised for fast preset building.</p>
+        </article>
+      </div>
+    </section>
 
-        <h3>Drive and Effects Blocks</h3><p>Preset drive and effects blocks available by effect type (Drive, Delay, Reverb, Modulation etc).
-          Many different block presets all organsised to give the best starting points for you to refine to your taste.
-        </p>
-        <h4>Pack 1</h4>
-        <h4>Pack 2</h4>
-        <h4>Pack 3</h4>
-        <h4>Pack 4</h4>
-        <h4>Pack 5</h4>
-        <br>
+    <section class="section panel">
+      <h2>Ideal for experienced modeller users.</h2>
+      <ul class="checklist">
+        <li>Use an amp modeller regularly</li>
+        <li>Understand real amps, cabinets and microphones</li>
+        <li>Are frustrated by abstract naming conventions</li>
+        <li>Want a studio-style workflow inside your modeller</li>
+        <li>Want to build presets with confidence and intent</li>
+      </ul>
+      <div class="button-row left">
+        <a class="button primary" href="https://knwlnd.gumroad.com/l/jlbdt?layout=profile">View product</a>
+      </div>
+    </section>
+  </main>
 
-</div>
+  <footer class="site-footer">
+    <p>Copyright © knwlnd 2026</p>
+    <p>Fractal Audio, Axe-Fx, FM3 and FM9 are trademarks of Fractal Audio Systems. This site is independent and not affiliated with or endorsed by Fractal Audio Systems.</p>
+  </footer>
 </body>
-
-
 </html>
