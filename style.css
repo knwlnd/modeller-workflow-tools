@@ -79,7 +79,7 @@ main,
 }
 
 .brand::after {
-  content: " / fractal audio";
+  content: " / Workflow Tools for Modern Amp Modellers";
   color: var(--muted-2);
   font-weight: 600;
 }
