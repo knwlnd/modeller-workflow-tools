@@ -79,7 +79,7 @@ main,
 }
 
 .brand::after {
-  content: " / Modeller Workflow Tools";
+  content: " | Modeller Workflow Tools";
   color: var(--muted-2);
   font-weight: 600;
 }
