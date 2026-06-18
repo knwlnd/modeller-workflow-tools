@@ -79,7 +79,7 @@ main,
 }
 
 .brand::after {
-  content: " / Workflow Tools for Modern Amp Modellers";
+  content: " / Modeller Workflow Tools";
   color: var(--muted-2);
   font-weight: 600;
 }
